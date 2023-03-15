@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+    span {
+        position: absolute;
+        background: #fff;
+        color: teal;
+        padding: 5px;
+        margin: 5px;
+        z-index: 3;
+    }
+    .image{
+        width: 200px;
+        overflow: hidden;
+        position: relative;
+        // border-radius: 5px;
+        img{
+            // border-radius: 5px;
+            width: 100%;
+            transition: scale 1s ease;
+        }
+        &:hover{
+            img{
+                scale: 1.5;
+            }
+        }
+    }
+    h3{
+        font-size: 15px;
+    }
+    .prices{
+        display: flex;
+        gap: 20px;
+        h3 {
+            font-size: 18px;
+            &:first-child{
+                color: gray;
+                text-decoration: line-through;
+            }
+        }
+    }
+}

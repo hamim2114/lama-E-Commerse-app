@@ -1,0 +1,19 @@
+.featured {
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        h1 {
+            flex: 1;
+        }
+        p {
+            flex: 2;
+        }
+    }
+    .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
